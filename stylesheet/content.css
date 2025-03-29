@@ -1,5 +1,5 @@
 @font-face {
-  font-family: Akt;
+  font-family: Akt, Arial, Helvetica, sans-serif;
   src: url('../fonts/Akt-Light.ttf');
   font-weight: 200;
 }
@@ -12,7 +12,6 @@
   display: flex;
   align-items: flex-end;
   justify-content: flex-end;
-  font-family: Akt, sans-serif;
 }
 
 .model {
@@ -38,6 +37,8 @@
   border: none;
   padding: 1vh;
   z-index: 10;
+  font-family: Akt, Arial, Helvetica, sans-serif;
+  font-weight: 200;
   font-size: larger; /* Делает элемент видимым поверх канваса */
 }
 .btn {
@@ -47,9 +48,11 @@
   padding-bottom: 5px;
   padding-left: 10px;
   padding-right: 10px;
-  font-size: medium;
   border-radius: 100px;
   border: none;
+  font-family: Akt, Arial, Helvetica, sans-serif;
+  font-weight: 200;
+  font-size: medium;
 }
 .namenbtn {
   display: flex;
