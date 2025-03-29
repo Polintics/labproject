@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta property="og:title" content="secret link" />
+    <meta property="og:image" content="" />
+    <title>LAB</title>
+    <link rel="icon" href="./img/redheart.png" />
+    <link rel="stylesheet" href="./stylesheet/style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
+    <script type="importmap">
+      {
+        "imports": {
+          "three": "https://cdn.jsdelivr.net/npm/three@0.139.0/build/three.module.js",
+          "OrbitControls": "https://cdn.jsdelivr.net/npm/three@0.139.0/examples/jsm/controls/OrbitControls.js",
+          "GLTFLoader": "https://cdn.jsdelivr.net/npm/three@0.139.0/examples/jsm/loaders/GLTFLoader.js",
+          "RectAreaLightUniformsLib": "https://cdn.jsdelivr.net/npm/three@0.139.0/examples/jsm/lights/RectAreaLightUniformsLib.js"
+        }
+      }
+    </script>
+    <script type="module" src="model.js"></script>
+  </head>
+  <body>
+    <div class="firstscreen">
+      <div class="sign"></div>
+      <div class="overlay">
+        <div class="namenbtn">
+          <input type="text" id="username" name="username" placeholder="имя" />
+          <button class="btn">отправить</button>
+        </div>
+      </div>
+      <div class="model"></div>
+      <img class="logo" src="img/lab.png" />
+    </div>
+  </body>
+</html>
