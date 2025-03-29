@@ -1,0 +1,56 @@
+@font-face {
+    font-family: Loos;
+    src: url('../fonts/1.woff');
+    font-weight: 400;
+    }
+
+.model{
+    width: 100vw;
+    height: 100vh;
+    cursor: grab;
+}
+.model:active {
+    cursor: grabbing;
+}
+.body{
+    font-family: Loos, sans-serif;
+    height: 100vh;
+    font-weight: 400; 
+    overflow: hidden;
+    width: 100vw;
+    line-height: 100%;
+}
+.menu{
+    width: 324px;
+    height: 100vh;
+    border-right: 1px solid black;
+    position: absolute;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    top: 0;
+    left: 0;
+    backdrop-filter: blur(30px);
+    background-color: rgba(225, 225, 223, 0.3);
+    text-transform: uppercase;
+    font-family: Loos, sans-serif;
+    font-weight: 400; 
+}
+
+.cafe, .bookshop{
+    height: 8vh;
+    padding: 20px;
+    border-bottom: 1px solid black ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.about, .visit, .calendar {
+    height: 28vh;
+    padding: 20px;
+    border-bottom: 1px solid black ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
